@@ -1,15 +1,10 @@
 // Reducers - take previous state and action to create new state
-
 export default (state = {}, action) => {
   switch (action.type) {
-    case 'GET_ARTIST':
-      return {
-        artist: action.artist
-      }
-    case 'LOAD_ARTIST':
+    case 'LOAD_ARTIST_SONGS':
       return {
         ...state,
-        artist: action.artist
+        songs: action.songs
       }
     default:
       return state

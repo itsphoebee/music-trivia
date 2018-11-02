@@ -1,11 +1,11 @@
 import React from 'react';
-import NameForm from './NameForm';
+import MainPage from './MainPage';
 
 const HomePage = () => {
   return (
     <div>
       <h1>Music Trivia</h1>
-      <NameForm />
+      <MainPage />
     </div>
   )
 }
